@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Eliminador de duplicados: Fichero Fuente Vector.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Eliminador de duplicados<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Quicksort</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Vector.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_vector_8h.html">Ir a la documentaci√≥n de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Universidad de las Fuerzas Armadas &quot;ESPE&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">* Eliminador de duplicados</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">* Suquillo Nicol·s</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment">* 27 / 12 / 2021</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment">* 03 / 01 / 2022</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">* 7167 Estructura de datos</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_vector.html">   22</a></span><span class="keyword">class </span><a class="code hl_class" href="class_vector.html">Vector</a></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">int</span> dim;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    T* vector;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <a class="code hl_function" href="class_vector.html#a39d6069675db4ecfc1ab81d440da759a">Vector</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    <a class="code hl_function" href="class_vector.html#a39d6069675db4ecfc1ab81d440da759a">Vector</a>(<span class="keywordtype">int</span> dim);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    T* <a class="code hl_function" href="class_vector.html#abfce44fdce84eee46771d591be17145e">reservar</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector.html#a54ee9346f552049218c061e669f91281">eliminar_Duplicados</a>(<span class="keywordtype">int</span> dim);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector.html#ade5dfef50e324544e74a27eb8f008c67">encerar</a>();</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector.html#a616fa3708a729f0f54d6763b2b5d324a">imprimir</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector.html#a703546be679115b8c886b1464250a728">setDim</a>(<span class="keywordtype">int</span> newDim);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector.html#a47d386d987fd5a66ab767faff5c0eca3">generar</a>(<span class="keywordtype">int</span> elm);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_vector.html#a1616ee8a0beb245d59e507eabf9c6e38">getDim</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_vector.html#a03b45ef4176a779ac7fc04592509025b">setVector</a>(T* newVector);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    T* <a class="code hl_function" href="class_vector.html#ae334f6646ca9c4df1f6750e0e0754af5">getVector</a>();</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    <a class="code hl_function" href="class_vector.html#afd524fac19e6d3d69db5198ffe2952b0">~Vector</a>();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>};</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="ttc" id="aclass_vector_html"><div class="ttname"><a href="class_vector.html">Vector</a></div><div class="ttdoc">Vector Indica el vector.</div><div class="ttdef"><b>Definition:</b> Vector.h:23</div></div>
+<div class="ttc" id="aclass_vector_html_a03b45ef4176a779ac7fc04592509025b"><div class="ttname"><a href="class_vector.html#a03b45ef4176a779ac7fc04592509025b">Vector::setVector</a></div><div class="ttdeci">void setVector(T *newVector)</div><div class="ttdoc">setVector</div><div class="ttdef"><b>Definition:</b> Vector.cpp:77</div></div>
+<div class="ttc" id="aclass_vector_html_a1616ee8a0beb245d59e507eabf9c6e38"><div class="ttname"><a href="class_vector.html#a1616ee8a0beb245d59e507eabf9c6e38">Vector::getDim</a></div><div class="ttdeci">int getDim()</div><div class="ttdoc">getDim</div><div class="ttdef"><b>Definition:</b> Vector.cpp:73</div></div>
+<div class="ttc" id="aclass_vector_html_a39d6069675db4ecfc1ab81d440da759a"><div class="ttname"><a href="class_vector.html#a39d6069675db4ecfc1ab81d440da759a">Vector::Vector</a></div><div class="ttdeci">Vector()</div><div class="ttdoc">Vector constructor de la clase Vector.</div><div class="ttdef"><b>Definition:</b> Vector.cpp:5</div></div>
+<div class="ttc" id="aclass_vector_html_a47d386d987fd5a66ab767faff5c0eca3"><div class="ttname"><a href="class_vector.html#a47d386d987fd5a66ab767faff5c0eca3">Vector::generar</a></div><div class="ttdeci">void generar(int elm)</div><div class="ttdoc">generar</div><div class="ttdef"><b>Definition:</b> Vector.cpp:27</div></div>
+<div class="ttc" id="aclass_vector_html_a54ee9346f552049218c061e669f91281"><div class="ttname"><a href="class_vector.html#a54ee9346f552049218c061e669f91281">Vector::eliminar_Duplicados</a></div><div class="ttdeci">void eliminar_Duplicados(int dim)</div><div class="ttdoc">eliminar_Duplicados</div><div class="ttdef"><b>Definition:</b> Vector.cpp:42</div></div>
+<div class="ttc" id="aclass_vector_html_a616fa3708a729f0f54d6763b2b5d324a"><div class="ttname"><a href="class_vector.html#a616fa3708a729f0f54d6763b2b5d324a">Vector::imprimir</a></div><div class="ttdeci">void imprimir()</div><div class="ttdoc">imprimirA</div><div class="ttdef"><b>Definition:</b> Vector.cpp:35</div></div>
+<div class="ttc" id="aclass_vector_html_a703546be679115b8c886b1464250a728"><div class="ttname"><a href="class_vector.html#a703546be679115b8c886b1464250a728">Vector::setDim</a></div><div class="ttdeci">void setDim(int newDim)</div><div class="ttdoc">setDim</div><div class="ttdef"><b>Definition:</b> Vector.cpp:69</div></div>
+<div class="ttc" id="aclass_vector_html_abfce44fdce84eee46771d591be17145e"><div class="ttname"><a href="class_vector.html#abfce44fdce84eee46771d591be17145e">Vector::reservar</a></div><div class="ttdeci">T * reservar(int)</div><div class="ttdoc">reservar</div><div class="ttdef"><b>Definition:</b> Vector.cpp:16</div></div>
+<div class="ttc" id="aclass_vector_html_ade5dfef50e324544e74a27eb8f008c67"><div class="ttname"><a href="class_vector.html#ade5dfef50e324544e74a27eb8f008c67">Vector::encerar</a></div><div class="ttdeci">void encerar()</div><div class="ttdoc">encerar</div><div class="ttdef"><b>Definition:</b> Vector.cpp:22</div></div>
+<div class="ttc" id="aclass_vector_html_ae334f6646ca9c4df1f6750e0e0754af5"><div class="ttname"><a href="class_vector.html#ae334f6646ca9c4df1f6750e0e0754af5">Vector::getVector</a></div><div class="ttdeci">T * getVector()</div><div class="ttdoc">getVector</div><div class="ttdef"><b>Definition:</b> Vector.cpp:81</div></div>
+<div class="ttc" id="aclass_vector_html_afd524fac19e6d3d69db5198ffe2952b0"><div class="ttname"><a href="class_vector.html#afd524fac19e6d3d69db5198ffe2952b0">Vector::~Vector</a></div><div class="ttdeci">~Vector()</div><div class="ttdoc">~Vector destructor de la clase Vector</div><div class="ttdef"><b>Definition:</b> Vector.cpp:85</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\Usuario\Documents\ESPE\Tercer semestre\Estructura de datos\ProyectosVisualStudio\Ejercicio_8.4.15\Ejercicio_8.4.15\Vector.cpp(29,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\Usuario\Documents\ESPE\Tercer semestre\Estructura de datos\ProyectosVisualStudio\Ejercicio_8.4.15\Ejercicio_8.4.15\Vector.cpp(27): message : al compilar la función del miembro clase plantilla "void Vector<int>::generar(int)"
+D:\Usuario\Documents\ESPE\Tercer semestre\Estructura de datos\ProyectosVisualStudio\Ejercicio_8.4.15\Ejercicio_8.4.15\main.cpp(22): message : Vea la referencia a la creación de una instancia de la función plantilla "void Vector<int>::generar(int)" que se está compilando
+D:\Usuario\Documents\ESPE\Tercer semestre\Estructura de datos\ProyectosVisualStudio\Ejercicio_8.4.15\Ejercicio_8.4.15\main.cpp(19): message : Vea la referencia a la creación de una instancia de clase plantilla "Vector<int>" que se está compilando
+  QuickSort.cpp
+  Vector.cpp
+  Generando código...
+  Ejercicio_8.4.15.vcxproj -> D:\Usuario\Documents\ESPE\Tercer semestre\Estructura de datos\ProyectosVisualStudio\Ejercicio_8.4.15\x64\Debug\Ejercicio_8.4.15.exe
